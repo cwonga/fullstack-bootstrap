@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   </head>
-  <body>
+  <body data-spy="scroll" data-target=".navbar" id="home" data-offset="300">
     
     <!-- Navbar -->
     <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse bg-primary">
@@ -64,7 +64,7 @@
     <div class="container pt-5">
       <!-- About -->
 
-      <div class="row">
+      <div class="row" id="about" data-offset="300">
         <div class="col-md-4 push-lg-4">  
               <h3 class="mb-4">About Full Stack Conference</h3>
               <img src="caleb-jones-128419.jpg" alt="Portland" class="mb-1 img-fluid rounded hidden-xs-down">
@@ -92,7 +92,7 @@
 
       <!-- Speakers -->
 
-      <h1 id="speakers" class="display-4 text-center my-5 text-muted">Speakers</h1>
+      <h1 id="speakers" class="display-4 text-center my-5 text-muted" data-offset="300">Speakers</h1>
       
         <div class="row">
           <div class="col-md-6 col-lg-4">
@@ -159,7 +159,7 @@
 
 
       <!-- Schedule -->
-      <h1 class="display-4 text-center my-5 text-muted">Schedule</h1>
+      <h1 id="schedule" class="display-4 text-center my-5 text-muted" data-offset="300">Schedule</h1>
          <ul class="list-group" id="schedule">
       <li class="list-group-item list-group-item-action flex-column align-items-start">
         <div class="d-flex w-100 justify-content-between">
